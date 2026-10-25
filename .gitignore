@@ -6,13 +6,15 @@
 # See: https://github.com/github/gitignore/tree/main/Global
 #
 .utmp/
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Uu]ser[Ss]ettings/
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
 *.log
 
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
@@ -58,6 +60,11 @@ ExportedObj/
 *.mdb
 *.opendb
 *.VC.db
+
+# IDEs
+.vs/
+.idea/
+.vscode/
 
 # Unity3D generated meta files
 *.pidb.meta
@@ -107,3 +114,8 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
